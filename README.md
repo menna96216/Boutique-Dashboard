@@ -26,11 +26,3 @@ It is fully **interactive** and **responsive**, accessible on any device via the
   - Style × Channel  
 - **Top 5 Products Table** by Profit
 
----
-
-## **How to Run Locally**
-
-1. Clone this repository:
-```bash
-git clone https://github.com/your-username/Boutique-Dashboard.git
-cd Boutique-Dashboard
