@@ -1,28 +1,66 @@
+تمام، ده مثال **README احترافي للـ GitHub** للعميل، بالإنجليزي، يوضح كل حاجة بوضوح:
+
+---
+
 # Boutique Sales Dashboard
 
-**Live Demo:** (https://boutique-dashboard.streamlit.app/)
+## Overview
+
+This project provides a complete analysis of a trendy boutique’s sales data, focusing on curated apparel for distinct customer segments. The goal is to understand **profitability, margins, and advertising efficiency** across different **channels, styles, customer segments, and product types**.
+
+The project includes two main components:
+
+1. **Interactive Streamlit App** – A live dashboard for exploring sales data visually and interactively.
+2. **Jupyter Notebook** – Detailed step-by-step analysis, including data cleaning, KPIs, charts, heatmaps, and insights.
 
 ---
 
-## **Description**
+## Features
 
-This is an **interactive sales dashboard** for a trendy boutique, developed using **Streamlit** and **Plotly**.  
-The dashboard allows users to explore **KPIs**, **profit trends**, and **margin performance** across different **sales channels**, **product styles**, **customer segments**, and **product types**.  
-
-It is fully **interactive** and **responsive**, accessible on any device via the provided live link, without requiring Python installation.
+* **KPIs:** Total Profit, Average Margin, Total Units Sold, Total Ad Spend
+* **Profit & Margin Analysis:** By Channel, Style, Product Type, and Customer Segment
+* **Heatmaps:** Style × Channel and Product Type × Customer Segment
+* **Trends:** Monthly Profit & Margin
+* **Ad Efficiency:** Profit per $ Spent by Channel
+* **Top Performers:** Top products by profit
+* **Interactive Visuals:** Bar plots, line plots, scatter plots for deeper insights
 
 ---
 
-## **Features**
+## Folder Structure
 
-- **KPIs:** Total Profit, Average Margin, Total Units Sold, Total Ad Spend  
-- **Profit by Channel:** Identify the most profitable sales channel  
-- **Average Profit by Style:** See which clothing style is most profitable  
-- **Profit by Product Type & Customer Segment:** Stacked bar chart  
-- **Profit vs Ad Spend:** Interactive scatter plot  
-- **Monthly Profit & Margin Trend**  
-- **Margin Heatmaps:**  
-  - Product Type × Style  
-  - Style × Channel  
-- **Top 5 Products Table** by Profit
+```
+boutique-dashboard/
+│
+├── Data - Sheet1.csv         # Sales dataset
+├── boutique_dashboard.ipynb  # Notebook with full analysis
+├── dashboard.py              # Streamlit app code
+├── README.md                 # Project description
+```
 
+---
+
+## How to Use
+
+### 1. Streamlit App (Recommended)
+
+* Open the app here: [https://boutique-dashboard.streamlit.app/](https://boutique-dashboard.streamlit.app/)
+* Explore filters for **Channel, Style, Customer Segment, and Product Type**
+* View KPIs, charts, heatmaps, and top products interactively
+
+### 2. Jupyter Notebook (Optional)
+
+* Open `boutique_dashboard.ipynb` in Jupyter or VSCode
+* Step through the data cleaning, calculations, and visualizations
+* Gain deeper understanding of the sales patterns and insights
+
+---
+
+## Notes
+
+* The Streamlit app is cross-platform and works on any device with a web browser
+* The Notebook is provided as a detailed reference and documentation for all analysis
+
+---
+
+لو تحبي، أقدر أعمللك النسخة **بالعربي** جاهزة للعميل، مع نفس الأسلوب الاحترافي. تحبي أعملها؟
