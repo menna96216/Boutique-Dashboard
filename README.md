@@ -1,8 +1,10 @@
-تمام، ده مثال **README احترافي للـ GitHub** للعميل، بالإنجليزي، يوضح كل حاجة بوضوح:
+# Boutique Sales Dashboard
+
+## Live App
+
+Check out the interactive dashboard here: [https://boutique-dashboard.streamlit.app/](https://boutique-dashboard.streamlit.app/)
 
 ---
-
-# Boutique Sales Dashboard
 
 ## Overview
 
@@ -44,7 +46,7 @@ boutique-dashboard/
 
 ### 1. Streamlit App (Recommended)
 
-* Open the app here: [https://boutique-dashboard.streamlit.app/](https://boutique-dashboard.streamlit.app/)
+* Open the app: [https://boutique-dashboard.streamlit.app/](https://boutique-dashboard.streamlit.app/)
 * Explore filters for **Channel, Style, Customer Segment, and Product Type**
 * View KPIs, charts, heatmaps, and top products interactively
 
@@ -62,5 +64,3 @@ boutique-dashboard/
 * The Notebook is provided as a detailed reference and documentation for all analysis
 
 ---
-
-لو تحبي، أقدر أعمللك النسخة **بالعربي** جاهزة للعميل، مع نفس الأسلوب الاحترافي. تحبي أعملها؟
