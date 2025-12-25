@@ -29,19 +29,6 @@ The project includes two main components:
 
 ---
 
-## Folder Structure
-
-```
-boutique-dashboard/
-│
-├── Data - Sheet1.csv         # Sales dataset
-├── boutique_dashboard.ipynb  # Notebook with full analysis
-├── dashboard.py              # Streamlit app code
-├── README.md                 # Project description
-```
-
----
-
 ## How to Use
 
 ### 1. Streamlit App (Recommended)
